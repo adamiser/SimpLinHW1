@@ -13,7 +13,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // SimpLinCpp
 List SimpLinCpp(NumericVector x, NumericVector y);
-RcppExport SEXP _SimpLinHW1_SimpLinCpp(SEXP xSEXP, SEXP ySEXP) {
+RcppExport SEXP _SimpLin_SimpLinCpp(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -25,7 +25,7 @@ END_RCPP
 }
 // rcpp_hello
 List rcpp_hello();
-RcppExport SEXP _SimpLinHW1_rcpp_hello() {
+RcppExport SEXP _SimpLin_rcpp_hello() {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -35,12 +35,12 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_SimpLinHW1_SimpLinCpp", (DL_FUNC) &_SimpLinHW1_SimpLinCpp, 2},
-    {"_SimpLinHW1_rcpp_hello", (DL_FUNC) &_SimpLinHW1_rcpp_hello, 0},
+    {"_SimpLin_SimpLinCpp", (DL_FUNC) &_SimpLin_SimpLinCpp, 2},
+    {"_SimpLin_rcpp_hello", (DL_FUNC) &_SimpLin_rcpp_hello, 0},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_SimpLinHW1(DllInfo *dll) {
+RcppExport void R_init_SimpLin(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

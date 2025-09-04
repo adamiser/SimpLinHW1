@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(SimpLinHW1)
+library(SimpLin)
 ```
 
 # Purpose

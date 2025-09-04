@@ -1,6 +1,6 @@
 [
     {
-        "file": "/Users/adamiser/Desktop/STAT 600/SimpLinHW1/src/SimpLin.cpp",
+        "file": "/Users/adamiser/Desktop/STAT 600/SimpLin/src/SimpLin.cpp",
         "file_last_write": 1756932612.0,
         "definitions": [
             {
@@ -8,7 +8,7 @@
                 "kind": 6,
                 "parent_name": "",
                 "name": "SimpLinCpp(NumericVector, NumericVector)",
-                "file": "/Users/adamiser/Desktop/STAT 600/SimpLinHW1/src/SimpLin.cpp",
+                "file": "/Users/adamiser/Desktop/STAT 600/SimpLin/src/SimpLin.cpp",
                 "line": 6,
                 "column": 6,
                 "hidden": false
@@ -17,7 +17,7 @@
         "hidden": false
     },
     {
-        "file": "/Users/adamiser/Desktop/STAT 600/SimpLinHW1/src/rcpp_hello.cpp",
+        "file": "/Users/adamiser/Desktop/STAT 600/SimpLin/src/rcpp_hello.cpp",
         "file_last_write": 1756932384.0,
         "definitions": [
             {
@@ -25,7 +25,7 @@
                 "kind": 6,
                 "parent_name": "",
                 "name": "rcpp_hello",
-                "file": "/Users/adamiser/Desktop/STAT 600/SimpLinHW1/src/rcpp_hello.cpp",
+                "file": "/Users/adamiser/Desktop/STAT 600/SimpLin/src/rcpp_hello.cpp",
                 "line": 18,
                 "column": 6,
                 "hidden": false
