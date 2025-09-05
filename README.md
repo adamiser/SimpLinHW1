@@ -4,6 +4,12 @@ To install on your machine, run this in the R console:
 
 devtools::install_github('adamiser/SimpLinHW1', build_vignettes=TRUE)
 
+Then, you can run
+
+library(SimpLin)
+
+to install the package!
+
 To learn about the package, browse the vignette by using
 
 browseVignettes()
